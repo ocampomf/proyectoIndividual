@@ -249,7 +249,33 @@ footer section div p {
 .Copyright {
     text-align: left;
 }
-
+@keyframes fa-user-shield{
+    0% { opacity: 0% }
+    100% { opacity: 100% } 
+}
+@keyframes fa-gift{
+    0% { opacity: 0% }
+    100% { opacity: 100% } 
+}
+@keyframes fa-credit-card{
+    0% { opacity: 0% }
+    100% { opacity: 100% } 
+}
+.fa-user-shield:hover{
+    color: #39B54A;
+    cursor: pointer;
+    animation: fa-user-shield 1s 1;
+}
+.fa-gift:hover{
+    color: #39B54A;
+    cursor: pointer;
+    animation: fa-gift 1s 1;
+}
+.fa-credit-card:hover{
+    color: #39B54A;
+    cursor: pointer;
+    animation: fa-credit-card 1s 1;
+}
 /*----------------------------------------------------------*/
 /*----------------------------------------------------------*/
 /*----------------------     361     -----------------------*/
