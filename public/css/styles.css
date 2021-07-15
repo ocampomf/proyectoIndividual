@@ -216,7 +216,8 @@ main.register input.reset:hover {
     color: #fff;
 }
 
-/**FOOTER*/
+
+
 footer section{
     display: flex;
     flex-direction: row;
@@ -230,7 +231,8 @@ footer section div {
     width: 30%;
 }
 
-/* Cuando paso el cursor por el DIV, debo cambiar el color del ICONO */
+
+
 
 footer section div h3 {
     margin-bottom: 0px;
@@ -276,14 +278,8 @@ footer section div p {
     cursor: pointer;
     animation: fa-credit-card 1s 1;
 }
-/*----------------------------------------------------------*/
-/*----------------------------------------------------------*/
-/*----------------------     361     -----------------------*/
-/*----------------------------------------------------------*/
-/*----------------------------------------------------------*/
 
 
-/**FOOTER*/
 
 @media (min-width: 361px) {
     main section article .description {
@@ -312,11 +308,6 @@ footer section div p {
     }
 }
 
-/*----------------------------------------------------------*/
-/*----------------------------------------------------------*/
-/*----------------------     769     -----------------------*/
-/*----------------------------------------------------------*/
-/*----------------------------------------------------------*/
 
 @media (min-width: 769px) {
     main section div.products article {
